@@ -11,6 +11,8 @@ module.exports = {
     ecmaVersion: 12,
   },
   rules: {
-    'class-methods-use-this': false,
+    'class-methods-use-this': 'off',
+    camelcase: 'off',
+    'no-unused-vars': ['error', { argsIgnorePattern: 'next' }],
   },
 };
